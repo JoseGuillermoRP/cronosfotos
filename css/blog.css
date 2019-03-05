@@ -1,0 +1,88 @@
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article{
+    margin: 15px;
+
+}
+
+#blog img{
+    width: 100%;
+    max-width: 280px;
+    filter: drop-shadow(16px 5px 10px rgba(0,0,0,0.9));
+    
+}
+#fotografo{
+    margin: 1px 1px 1px 1px;
+    
+}
+#fotografo h3{
+    text-align: center;
+    margin-left: -64px;
+}
+#fotografo h4{
+transform: translateX(-41px);
+}
+
+#fotografo .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fotografo article{
+    margin: 15px;
+    margin-bottom: 65px;
+
+}
+
+#fotografo img{
+     width: 72%;
+    height: 106%;
+    border-radius: 100%;
+    max-width: 280px;
+    filter: drop-shadow(16px 5px 10px rgba(0,0,0,0.9));
+    
+}
+#form {
+ 
+ 
+  transform: translateX(-37px);
+  
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+

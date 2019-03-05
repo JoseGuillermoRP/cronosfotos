@@ -1,0 +1,40 @@
+.col1{
+  float: left;
+}
+.col2{
+    float: right;
+}
+
+#comentarios {
+transform: translateX(-3%);
+}
+#label{
+    transform: translateX(19%);
+}
+@media(min-width:375px){
+#Contacto{
+width: 200px;
+    transform: translateX(-3%);
+}
+#comentario{
+    transform: translateX(17%);
+}
+}
+@media(min-width:425px){
+#Contacto{
+
+    transform: translateX(-3%);
+}
+#comentario{
+    transform: translateX(16%);
+}
+}
+@media(min-width:768px){
+#Contacto{
+ width: auto;
+    transform: translateX(0%);
+}
+#comentario{
+    transform: translateX(0%);
+}
+}
